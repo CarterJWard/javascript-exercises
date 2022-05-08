@@ -1,9 +1,9 @@
-const ftoc = function() {
-
+const ftoc = function (value) {
+  return parseFloat(((value - 32) * 5 / 9).toFixed(1))
 };
 
-const ctof = function() {
-
+const ctof = function (value) {
+  return parseFloat(((value * 9 / 5) + 32).toFixed(1))
 };
 
 // Do not edit below this line
